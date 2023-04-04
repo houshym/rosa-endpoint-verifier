@@ -23,12 +23,14 @@ endpoints=(
 "pull.q1w2.quay.rhcloud.com 443"
 "cdn01.q1w2.quay.rhcloud.com 443"
 #"*.q1w2.quay.rhcloud.com 443"
+
 # Telemetry Endpoints
 "cert-api.access.redhat.com 443"
 "api.access.redhat.com 443"
 "infogw.api.openshift.com 443"
 "console.redhat.com 443"
 "observatorium.api.openshift.com 443"
+
 #Amazon Endpoints
 "ec2.amazonaws.com 443"
 "events.amazonaws.com 443"
@@ -44,15 +46,18 @@ endpoints=(
 #"tagging.${REGION}.amazonaws.com 80"
 # "*.s3.dualstack.${REGION}.amazonaws.com 443"
 "s3.dualstack.${REGION}.amazonaws.com 443"
+
 # Openshift Endpoint
 "mirror.openshift.com 443"
 "storage.googleapis.com/openshift-release 443"
 "api.openshift.com 443"
+
 # SRE and Mgmt Endpoint
 "api.pagerduty.com 443"
 "events.pagerduty.com 443"
 "api.deadmanssnitch.com 443"
 "nosnch.in 443"
+
 # "*.osdsecuritylogs.splunkcloud.com 443"
 "inputs1.osdsecuritylogs.splunkcloud.com 9997"
 "inputs2.osdsecuritylogs.splunkcloud.com 9997"
@@ -71,7 +76,36 @@ endpoints=(
 "inputs15.osdsecuritylogs.splunkcloud.com 9997"
 "http-inputs-osdsecuritylogs.splunkcloud.com 443"
 "sftp.access.redhat.com 22"
+
+# Language Framework
+# "maven.org 443"
+# "apache.org 443"
+# "npmjs.com 443"
+# "openshift.io 443"
+# "openshift.org 443"
+# "docker.io 443"
+# "docker.org 443"
+# "rubygems.org 443"
+# "cpan.org 443"
+# "githubusercontent.com 443"
+# "githubapp.com 443"
+# "cloudfront.net 443"
+# "fabric8.io 443"
+# "codehaus.org 443"
+# "sonatype.org 443"
+# "jboss.org 443"
+# "jenkins-ci.org 443"
+# "jenkins.io 443"
+# "bintray.com 443"
+# "spring.io 443"
+# "eclipse.org 443"
+# "fusesource.com 443"
+# "eclipse.org 443"
+# "quay.io 443"
+
 # Add other domain based on your configuration
+#"okta.com 443"
+
 
 )
 
