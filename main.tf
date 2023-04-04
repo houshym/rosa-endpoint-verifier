@@ -20,11 +20,12 @@ resource "aws_instance" "ec2_instance" {
               yum install -y jq
 
               # Copy the connectivity test script
-              curl -o /home/ec2-user/connectivity_test.sh https://raw.githubusercontent.com/<username>/<repository>/<branch>/connectivity_test.sh
-              chmod +x /home/ec2-user/connectivity_test.sh
+              curl -o /home/ec2-user/connectivity_test.sh https://raw.githubusercontent.com/houshym/
+rosa-endpoint-verifier/main/rosa-net-verifier.sh
+              chmod +x /home/ec2-user/rosa-net-verifier.sh
 
               # Run the connectivity test
-              /home/ec2-user/connectivity_test.sh
+              /home/ec2-user/rosa-net-verifier.sh ${var.region}
               EOF
 }
 
