@@ -72,7 +72,7 @@ endpoints=(
 "http-inputs-osdsecuritylogs.splunkcloud.com 443"
 "sftp.access.redhat.com 22"
 # Add other domain based on your configuration
-"okta.com 443"
+
 )
 
 
