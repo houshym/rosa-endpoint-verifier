@@ -1,5 +1,5 @@
 #!/bin/bash
-REGION=us-east-1
+REGION=$1
 # ... List of endpoints ...
 
 endpoints=(
