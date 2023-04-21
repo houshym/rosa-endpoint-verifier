@@ -1,10 +1,10 @@
 #!/bin/bash
 
-if [ -z "$1" ]; then
-    read -p "Please enter a value for region: " REGION
-else
-    REGION="$1"
-fi
+# if [ -z "$1" ]; then
+#     read -p "Please enter a value for region: " REGION
+# else
+#     REGION="$1"
+# fi
 
 endpoints=(
 # ... List of endpoints ...
